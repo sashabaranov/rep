@@ -16,5 +16,5 @@ RUN cd /root && \
 # add support for Python2 kernels
 RUN ipython2 kernelspec install-self
 
-EXPOSE 8888 8080 5000
+EXPOSE 8888
 CMD ["bash", "/root/singleuser.sh"]
